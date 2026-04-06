@@ -184,7 +184,7 @@ footer {
   }
 
   .logo img {
-    height: 130px;
+    height: 100px;
   }
 
 }
