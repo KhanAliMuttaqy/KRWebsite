@@ -166,7 +166,7 @@ footer {
 
   .nav-links {
     position: absolute;
-    top: 60px;
+    top: 150px;
     right: 0;
     background: #2c3e50;
     width: 100%;
