@@ -190,26 +190,29 @@ footer {
   }
 
   .nav-links {
-    position: absolute;
-    top: 60px;
-    right: 0;
+    position: fixed;
+    top: 100px;
+    left: 0;
+
     background: #2c3e50;
     width: 100%;
     flex-direction: column;
     align-items: center;
     display: none;
+    z-index: 999;
   }
+
 
   .nav-links.active {
     display: flex;
   }
 
   .nav-links li {
-    padding: 15px 0;
+    padding: 20px 0;
   }
 
   .logo img {
-    height: 130px;
+    height: 70px;
   }
 
     .services {
